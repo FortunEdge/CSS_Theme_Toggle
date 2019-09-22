@@ -1,0 +1,24 @@
+.container {
+    background-color: white;
+    border-color: black;
+}
+
+.toolbar {
+    border-color: black;
+}
+
+.toolbarText {
+    color: black;
+}
+
+.toggleSwitch {
+    border-color: black;
+}
+
+.toggleSwitch > .toggleIndicator {
+    background-color: black;
+}
+
+.contentContainer {
+    color: black;
+}

@@ -1,0 +1,117 @@
+body, div, p, h1, h2, h3, a, svg {
+    transition-duration: 0.5s;
+    font-family: sans-serif;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+    flex: none;
+    display: block;
+    max-width: 700px;
+    width: 70vw;
+    max-height: 500px;
+    height: 70vh;
+    overflow: hidden;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.toolbar {
+    height: 40px;
+    border-bottom: 1px solid;
+}
+
+.toolbarText {
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+
+.toggleSwitch {
+    position: relative;
+    width: 40px;
+    height: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+    display: block;
+    float: left;
+}
+
+.toggleSwitch:hover {
+    cursor: pointer;
+}
+
+.toggleSwitch > .toggleIndicator {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 16px;
+    height: 16px;
+    border-radius: 15px;
+    transition-duration: 0.5s;
+}
+
+.contentContainer {
+    width: 90%;
+    height: 90%;
+    overflow-y: scroll;
+    display: block;
+    margin: 10px auto auto auto;
+}
+
+.imageContainer {
+    position: relative;
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+img {
+   width: 100%; 
+}
+
+.creditBadge {
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+}
+
+/* Unsplash Credit Badge */
+.creditBadge > a {
+    background-color:white;
+    color:black;
+    border: 1px solid black;
+    text-decoration:none;
+    padding:4px 6px;
+    font-family:-apple-system, BlinkMacSystemFont, San Francisco,Helvetica Neue, Helvetica, Ubuntu, Roboto, Noto,Segoe UI, Arial, sans-serif;
+    font-size:12px;
+    font-weight:bold;
+    line-height:1.2;
+    display:inline-block;
+    border-radius:3px;
+}
+
+.creditBadge > a > span > svg {
+    height:12px;
+    width:auto;
+    position:relative;
+    vertical-align:middle;
+    top:-2px;
+    fill:black;
+}
+
+.creditBadge > a:visited {
+    color: black;
+}
+/* End Unsplash Credit Badge */

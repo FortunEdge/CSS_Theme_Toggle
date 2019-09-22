@@ -1,0 +1,35 @@
+body {
+    background-color: #222222;
+}
+.container {
+    background-color: #222222;
+    border-color: white;
+}
+
+.toolbar {
+    border-color: white;
+}
+
+.toolbarText {
+    color: white;
+}
+
+.toggleSwitch {
+    border-color: white;
+}
+
+.toggleSwitch > .toggleIndicator {
+    background-color: white;
+}
+
+.contentContainer {
+    color: white;
+}
+
+a {
+    color: #00b6ed;
+}
+
+a:visited {
+    color: #aa00ff;
+}
